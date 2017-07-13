@@ -1,0 +1,60 @@
+name: DnickHelper
+main: de.dnickmc.plugin.main.Main
+version: 0.4
+author: DnickMC
+description: Dieses Plugin hilft ihnen, Befehle einfacher einzugeben und noch mehr
+website: https://youtube.com/dnickmc
+
+commands:
+     clear:
+          description: Inventar leeren
+          usage: /<clear [Player]>
+          permission: dnick.clear
+     day:
+          description: Tag machen
+          usage: /<day>
+          permission: dnick.time
+          aliases: [tag]
+     feed:
+          description: Satt werden
+          usage: /<feed [Player]>
+          permission: dnick.heal
+          aliases: [food]
+     0:
+          description: Survivalmode
+          usage: /<0 [Player]>
+          permission: dnick.gamemode
+     1:
+          description: Kreativemode
+          usage: /<1 [Player]>
+          permission: dnick.gamemode
+     2:
+          description: Adventuremode
+          usage: /<2 [Player]>
+          permission: dnick.gamemode
+     3:
+          description: Spectatermode
+          usage: /<3 [Player]>
+          permission: dnick.vanish
+     heal:
+          description: Regenerieren und essen
+          usage: /<heal [Player]>
+          permission: dnick.heal
+     info:
+          description: Hilfe des Plugins für Spieler
+          usage: /<info>
+          permission: dnick.player
+     night:
+          description: Nacht machen
+          usage: /<night>
+          permission: dnick.time
+          aliases: [nacht]
+     yt:
+          description: Youtube Links
+          usage: /<yt>
+          permission: dnick.player
+          aliases: [youtube]
+     fly:
+          description: Fliegen aktivieren unddeaktivieren
+          usage: /<fly>
+          permission: dnick.fly
